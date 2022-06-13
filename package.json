@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "",
-    "start": ""
+    "start": "tsc src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/zearkiatos/express-api/issues"
   },
-  "homepage": "https://github.com/zearkiatos/express-api#readme"
+  "homepage": "https://github.com/zearkiatos/express-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
